@@ -1,19 +1,21 @@
-# TÍTULO DO PROJETO
+# Meu Mercado
 
-`CURSO`
+`Superior de Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`SEMESTRE`
+`02/2025`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nosso projeto é um aplicativo móvel para Android, desenvolvido em React Native, para auxiliar no controle de gastos durante compras grandes de supermercado. Ele substitui o método manual de papel e caneta, permitindo ao usuário adicionar itens e seus preços para ver o valor total da compra em tempo real, garantindo que não ultrapasse o orçamento definido. Além disso, planejamos adicionar funcionalidades extras como a visualização de produtos por categoria e a criação de listas de desejo.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alexandre Laguardia
+* Aliane
+* Daniel Dumont Marques
+* David
+* Deuslanio
+* Murilo Silva Rezende
 
 ## Orientador
 

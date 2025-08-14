@@ -49,6 +49,44 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 > *"A gente sempre esquece alguma coisa ou compra a marca mais cara sem querer. Se tivesse um app pra organizar isso e até guardar o preço que paguei da última vez, seria bem mais fácil."*
 
 ---
+**Persona 3: A Mãe Solo Batalhadora**
+
+* **Nome:** Sônia
+* **Idade:** 45 anos
+* **Ocupação:** Diarista (trabalha em 3 casas diferentes)
+* **Família:** Mãe solo, 2 filhos (10 e 15 anos)
+* **Perfil Tecnológico:** Possui um smartphone Android básico que ganhou de presente há 2 anos. Usa principalmente para WhatsApp e para ver vídeos no YouTube. Tem um plano de dados pré-pago que recarrega quando pode.
+* **Objetivos:**
+    * Fazer a "compra grande" do mês com os R$ 650,00 que conseguiu juntar, sem deixar faltar o básico para os filhos.
+    * Evitar a vergonha de ter que deixar produtos no caixa por não ter dinheiro suficiente.
+    * Tentar economizar qualquer trocado para uma emergência ou para a conta de luz.
+* **Frustrações:**
+    * "A cabeça fica a mil na hora da compra. É muita conta, muito preço pra lembrar. Sempre acho que esqueci de somar alguma coisa."
+    * O medo constante de ultrapassar o valor do orçamento.
+    * O celular lento e a falta de internet confiável dentro do supermercado.
+
+> *"O medo de passar do valor é constante. Já tive que escolher entre levar a mistura ou o material de limpeza."*
+
+---
+**Persona 4: O Jovem Trabalhador Responsável**
+
+* **Nome:** Fábio
+* **Idade:** 19 anos
+* **Ocupação:** Repositor em um supermercado (primeiro emprego)
+* **Família:** Mora com a mãe e dois irmãos mais novos. Ajuda nas despesas de casa.
+* **Perfil Tecnológico:** Gosta de tecnologia e entende bem de celular, mas tem um modelo de entrada por limitações financeiras. Sabe identificar um aplicativo bom e funcional.
+* **Objetivos:**
+    * Fazer a compra da quinzena com a parte do salário que separou (R$ 400,00), para mostrar à mãe que é responsável.
+    * Fazer o dinheiro render ao máximo, comparando marcas e aproveitando as promoções que ele mesmo ajuda a etiquetar no trabalho.
+    * Não precisar pedir dinheiro emprestado ou usar o limite do cartão da mãe.
+* **Frustrações:**
+    * "Eu tento usar a calculadora, mas ficar trocando de tela toda hora me atrapalha e demora."
+    * A dúvida se pode aproveitar uma promoção por não saber o total acumulado no carrinho.
+    * A falta de uma forma simples de separar gastos essenciais ("comida de verdade") de gastos supérfluos ("besteiras").
+
+> *"Às vezes vejo uma promoção boa, mas fico na dúvida se posso pegar porque não sei quanto já deu o total no carrinho."*
+
+---
 
 ## Histórias de Usuários
 
@@ -56,14 +94,14 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 | EU COMO... `PERSONA` | QUERO/PRECISO... `FUNCIONALIDADE` | PARA... `MOTIVO/VALOR` |
 | :--- | :--- | :--- |
+| **Sônia** | Que o aplicativo funcione rápido e sem travar no meu celular básico. | Conseguir usá-lo sem passar raiva e sem que ele feche no meio da compra. |
+| **Sônia** | Usar as funções principais da lista (marcar item, ver o total) mesmo sem internet. | Garantir que eu possa controlar meus gastos, pois a internet do mercado sempre falha. |
 | **Ana Costa** | Criar uma nova lista de compras e definir um orçamento máximo para ela. | Ser alertada caso o valor total dos itens ultrapasse meu limite financeiro. |
 | **Ana Costa** | Adicionar itens à minha lista, especificando nome, quantidade e preço. | Saber o valor total da minha compra em tempo real enquanto estou no mercado. |
-| **Ana Costa** | Marcar os itens que já coloquei no carrinho. | Não me perder na lista e evitar comprar itens repetidos ou esquecer algo. |
 | **Ana Costa** | Organizar meus itens por categorias (ex: "Frios", "Limpeza", "Hortifruti"). | Otimizar meu tempo, pegando todos os itens de uma mesma seção do mercado de uma vez. |
+| **Fábio** | Ter uma visão clara de quanto já gastei e quanto ainda tenho. | Poder decidir na hora se posso ou não aproveitar uma promoção que vi no corredor. |
+| **Fábio** | Poder criar "grupos" ou "etiquetas" dentro da lista (ex: "Essencial", "Besteiras"). | Saber no final da compra quanto do meu dinheiro foi para o que realmente importava. |
 | **Lucas Martins** | Salvar uma compra finalizada como um histórico. | Poder consultar quanto paguei por um produto no passado e comparar preços. |
-| **Lucas Martins** | Criar múltiplas listas de compras (ex: "Semanal", "Churrasco Fim de Semana"). | Manter minhas necessidades de compra organizadas para diferentes ocasiões. |
-| **Lucas Martins** | Editar o preço de um item diretamente no carrinho. | Corrigir o valor caso o preço na prateleira seja diferente do que eu havia estimado. |
-| **Qualquer Usuário** | Visualizar o subtotal dos itens no carrinho e o valor restante do orçamento. | Ter clareza e controle total sobre meus gastos durante a compra. |
 
 ---
 

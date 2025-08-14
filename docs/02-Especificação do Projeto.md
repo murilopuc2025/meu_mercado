@@ -8,37 +8,64 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+**Persona 1: A Chefe de Família Organizada**
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+* **Nome:** Ana Costa
+* **Idade:** 35 anos
+* **Profissão:** Analista Financeira
+* **Situação Familiar:** Casada, com dois filhos pequenos (4 e 7 anos).
+* **História e Comportamento:** Ana é a responsável pelas compras mensais da casa. Com um orçamento familiar bem definido, ela precisa garantir que todos os itens essenciais sejam comprados sem ultrapassar o valor estipulado. Atualmente, ela faz uma lista em um caderno, leva uma calculadora e vai somando os preços à medida que coloca os produtos no carrinho. Ela se sente frustrada quando erra nos cálculos ou esquece de somar algum item, o que a leva a ter surpresas desagradáveis no caixa.
+* **Dores e Frustrações:**
+    * Medo de ultrapassar o orçamento e ter que deixar produtos no caixa.
+    * Dificuldade em somar os valores de cabeça ou na calculadora enquanto gerencia o carrinho e os filhos.
+    * Perda de tempo refazendo contas para ter certeza do valor.
+    * Esquecer a lista de papel em casa.
+* **Objetivos e Necessidades:**
+    * Ter um controle preciso e em tempo real do valor total da compra.
+    * Ser notificada quando o valor estiver próximo do seu orçamento limite.
+    * Ter a lista de compras sempre à mão, no celular.
+    * Organizar a lista por categorias para otimizar o percurso dentro do mercado.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+> *"É tão frustrante chegar no caixa e ter que tirar itens do carrinho porque a conta deu mais do que o esperado. Eu só queria uma forma mais fácil de controlar isso."*
+
+---
+**Persona 2: O Estudante Universitário Econômico**
+
+* **Nome:** Lucas Martins
+* **Idade:** 23 anos
+* **Profissão:** Estudante de Design e estagiário.
+* **Situação Familiar:** Solteiro, divide apartamento com mais dois amigos.
+* **História e Comportamento:** Lucas faz compras semanais para o apartamento, muitas vezes comprando itens para si e para os colegas. O orçamento é curto e dividido entre eles. Ele usa o bloco de notas do celular para listar o que precisa, mas a dificuldade é saber o preço das coisas e quanto a compra está totalizando. Ele gostaria de poder comparar preços entre os mercados que frequenta para economizar mais.
+* **Dores e Frustrações:**
+    * Não ter uma estimativa de quanto a compra vai custar.
+    * Dificuldade em lembrar os preços dos produtos para comparar entre diferentes mercados.
+    * A lista no bloco de notas é simples demais, não permite adicionar quantidades ou preços de forma organizada.
+* **Objetivos e Necessidades:**
+    * Uma ferramenta para rapidamente anotar itens e seus preços.
+    * Poder salvar históricos de compras para comparar a evolução dos preços.
+    * Criar listas de "desejos" ou "próxima compra" para não esquecer produtos não essenciais que ele quer comprar quando o orçamento permitir.
+    * Eventualmente, compartilhar a lista com os colegas de apartamento.
+
+> *"A gente sempre esquece alguma coisa ou compra a marca mais cara sem querer. Se tivesse um app pra organizar isso e até guardar o preço que paguei da última vez, seria bem mais fácil."*
+
+---
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| EU COMO... `PERSONA` | QUERO/PRECISO... `FUNCIONALIDADE` | PARA... `MOTIVO/VALOR` |
+| :--- | :--- | :--- |
+| **Ana Costa** | Criar uma nova lista de compras e definir um orçamento máximo para ela. | Ser alertada caso o valor total dos itens ultrapasse meu limite financeiro. |
+| **Ana Costa** | Adicionar itens à minha lista, especificando nome, quantidade e preço. | Saber o valor total da minha compra em tempo real enquanto estou no mercado. |
+| **Ana Costa** | Marcar os itens que já coloquei no carrinho. | Não me perder na lista e evitar comprar itens repetidos ou esquecer algo. |
+| **Ana Costa** | Organizar meus itens por categorias (ex: "Frios", "Limpeza", "Hortifruti"). | Otimizar meu tempo, pegando todos os itens de uma mesma seção do mercado de uma vez. |
+| **Lucas Martins** | Salvar uma compra finalizada como um histórico. | Poder consultar quanto paguei por um produto no passado e comparar preços. |
+| **Lucas Martins** | Criar múltiplas listas de compras (ex: "Semanal", "Churrasco Fim de Semana"). | Manter minhas necessidades de compra organizadas para diferentes ocasiões. |
+| **Lucas Martins** | Editar o preço de um item diretamente no carrinho. | Corrigir o valor caso o preço na prateleira seja diferente do que eu havia estimado. |
+| **Qualquer Usuário** | Visualizar o subtotal dos itens no carrinho e o valor restante do orçamento. | Ter clareza e controle total sobre meus gastos durante a compra. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+---
 
 ## Modelagem do Processo de Negócio 
 

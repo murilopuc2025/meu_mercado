@@ -217,22 +217,56 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão. O diagrama de rede abaixo ilustra a sequência de macro-etapas do nosso projeto, onde o desenvolvimento (Etapas 3 e 4) depende da conclusão do design (Etapa 2), que por sua vez depende do planejamento (Etapa 1).
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+![Diagrama de Rede Simplificado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-02-e3-proj-mov-t6-g1-acompra/blob/main/docs/img/02-diagrama-rede-simplificado.png?raw=true)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las. Abaixo, detalhamos as atividades do nosso projeto seguindo o cronograma da disciplina.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+| ID | Atividade | Início | Fim | Duração | Predecessores |
+| :--- | :--- | :--- | :--- | :--- |:--- |
+| **1** | **ETAPA 1: Concepção e Planejamento** | 01/08/25 | 31/08/25 | 31 dias | - |
+| 1.1 | Documento de Contexto e Especificação | 01/08/25 | 20/08/25 | 20 dias | - |
+| 1.2 | Matriz e Gerenciamento de Projeto | 21/08/25 | 31/08/25 | 11 dias | 1.1 |
+| **2** | **ETAPA 2: Design da Solução** | 01/09/25 | 21/09/25 | 21 dias | 1 |
+| 2.1 | Metodologia e Arquitetura | 01/09/25 | 10/09/25 | 10 dias | 1.2 |
+| 2.2 | Projeto de Interface (Wireframes) | 11/09/25 | 21/09/25 | 11 dias | 2.1 |
+| **3** | **ETAPA 3: Desenvolvimento (Parte 1)** | 22/09/25 | 19/10/25 | 28 dias | 2 |
+| 3.1 | Dev: CRUDs e Funcionalidades Core | 22/09/25 | 12/10/25 | 21 dias | 2.2 |
+| 3.2 | Testes Iniciais e Registros | 13/10/25 | 19/10/25 | 7 dias | 3.1 |
+| **4** | **ETAPA 4: Desenvolvimento (Parte 2)** | 20/10/25 | 16/11/25 | 28 dias | 3 |
+| 4.1 | Dev: Features Adicionais e UI/UX | 20/10/25 | 08/11/25 | 20 dias | 3.2 |
+| 4.2 | Testes Finais e Registros | 09/11/25 | 16/11/25 | 8 dias | 4.1 |
+| **5** | **ETAPA 5: Entrega Final** | 17/11/25 | 26/11/25 | 10 dias | 4 |
+| 5.1 | Documentação e Vídeo Final | 17/11/25 | 24/11/25 | 8 dias | 4.2 |
+| 5.2 | Apresentação e Entrega Final | 25/11/25 | 26/11/25 | 2 dias | 5.1 |
+
+![Gráfico de Gantt]( exemplo em: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-02-e3-proj-mov-t6-g1-acompra/blob/main/docs/img/02-grafico-gantt.png?raw=true)
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. O cronograma abaixo detalha as principais responsabilidades de cada membro da equipe ao longo do projeto.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+| Papel da Equipe | Agosto (Etapa 1) | Setembro (Etapa 2) | Outubro (Etapa 3) | Novembro (Etapa 4 e 5) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Gerente de Projeto / UI/UX** | Planejamento, cronograma, definição de escopo. | Design do fluxo de navegação e wireframes interativos. | Acompanhamento do desenvolvimento (sprints/kanban). | Elaboração da apresentação e vídeo final, consolidação da entrega. |
+| **Analista de Requisitos / QA** | Levantamento de requisitos, documentação de contexto e especificação (Personas, Histórias, etc.). | Definição da arquitetura, modelo ER e criação dos planos de teste iniciais. | Execução dos testes da Etapa 3, registro de bugs e validação de requisitos. | Execução dos testes finais de funcionalidades e usabilidade, registro e validação completa. |
+| **Desenvolvedor React Native** | Estudo do React Native e configuração do ambiente. | Implementação dos layouts de tela baseados nos wireframes. | Codificação das funcionalidades principais (CRUD de listas e itens, cálculo de total). | Codificação de funcionalidades extras (categorias, histórico), refinamento e correções. |
+
+![Project Timeline](exemplo em: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-02-e3-proj-mov-t6-g1-acompra/blob/main/docs/img/02-project-timeline.png?raw=true)
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo. Para este projeto acadêmico, o orçamento é composto por custos simbólicos de mão de obra e custos diretos de software e infraestrutura.
 
-![Orçamento](img/02-orcamento.png)
+| Categoria de Custo | Item | Justificativa | Custo Estimado (R$) |
+| :--- | :--- | :--- | :--- |
+| **Recursos Humanos** | Horas da Equipe (3 membros x 10h/semana x 16 semanas @ R$20/h) | Valor simbólico para representar o esforço de desenvolvimento e gestão. | R$ 9.600,00 |
+| **Software** | Ferramentas de Design e Prototipação (Figma, etc.) | Utilização dos planos gratuitos disponíveis para estudantes. | R$ 0,00 |
+| **Software** | Ferramentas de Desenvolvimento (VS Code, Android Studio, Git) | Ferramentas gratuitas e de código aberto. | R$ 0,00 |
+| **Infraestrutura** | Taxa de Publicação - Google Play Store | Custo único para permitir a publicação do app na loja oficial. | R$ 130,00 (US$ 25) |
+| **Hardware** | Uso de computadores pessoais | Equipamentos de propriedade dos membros da equipe. | R$ 0,00 |
+| **Contingência** | Reserva (10% sobre os custos diretos) | Reserva para cobrir custos imprevistos com a publicação ou software. | R$ 13,00 |
+| **CUSTO TOTAL ESTIMADO** | | | **R$ 9.743,00** |
+
+![Orçamento]( exemplo em: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-02-e3-proj-mov-t6-g1-acompra/blob/main/docs/img/02-orcamento.png?raw=true)
